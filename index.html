@@ -6,8 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Batman</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-dark">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img class="logo" src="/src/images/logobatman.png" alt="logo batman" width="100" height="47">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="navbar-nav">
+                            <a href="#" class="nav-link text-white fw-bold fs-5 ms-4">.home</a>
+                        </li>
+                        <li class="navbar-nav">
+                            <a href="#cast" class="nav-link text-white fw-bold fs-5 ms-4">.elenco</a>
+                        </li>
+                        <li class="navbar-nav">
+                            <a href="#about" class="nav-link text-white fw-bold fs-5 ms-4">.sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fw-semibold text-white shadow-text">THE BATMAN</h1>
+                    <h3 class="text-white pb-3">Assista agora na HBO Max</h3>
+                    <div>
+                        <a href="#" class="btn btn-light rounded-0 fw-bold ml-1 btn-lg text-uppercase">Site Oficial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="container text-white py-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-9">
+                <h1 class="fw-bold"> <span class="dot">.</span>sobre</h1>
+                <p class="pt-2">
+                    Lorem ipssam esse? Quaeorem fugit suscipit, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, vero! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, voluptatum. animi quod ipsam, nisi voluptatibus doloribus facere expedita error unde rem earum? Quia doloremque, aperiam cumque beatae corrupti animi excepturi pariatur odio quam consectetur nihil temporibus autem natus provident ullam facilis obcaecati cum, earum nemo labore, fugiat magnam molestias ratione! Dolorum tempora necessitatibus harum eius. Porro sequi labore repudiandae expedita voluptas fugiat numquam, enim voluptatem eos, nobis veritatis cumque officia quam distinctio id doloribus nemo? Nulla accusantium rem nemo, cupiditate itaque voluptas beatae nisi veniam dolores impedit ea aperiam, dolorem enim facilis obcaecati, vel harum velit? Doloribus earum atque vero sunt optio aut fuga quaerat id voluptatem eos, dolor tempore ipsa vitae! Suscipit consectetur illo culpa dolor ullam a nesciunt quas aut eligendi qui fugit odio repellendus accusantium, odit facilis molestias ipsam veniam facere ratione sapiente quo quos autem. Expedita libero animi reprehenderit eaque Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, numquam! <br>
+                    <div class="button-about d-flex justify-content-center mt-auto text-center">
+                        <a href="#" class="btn btn-light rounded-0">Leia mais</a>
+                    </div>
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 d-flex align-items-center">
+                <div class="about-img">
+                    <img class="float-end img-fluid" src="/src/images/batman_about.jpg" alt="batman">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cast" class="container-fluid p-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fw-bold pb-2"><span class="dot">.</span>cast</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 pt-2">
+                    <div class="card">
+                        <img src="/src/images/cast/robbert.png" alt=""></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Robert Pattinson</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam, unde ducimus dignissimos nihil placeat at aperiam eaque pariatur sed excepturi eum a nam voluptate inventore rem, ipsum quam qui cumque doloremque illum impedit! Minima velit tenetur culpa ratione? Consectetur.</p>
+                            <a href="#" class="btn btn-light rounded-0">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 pt-2">
+                    <div class="card">
+                        <img src="/src/images/cast/zoe.png" alt=""></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Zoë Kravitz</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam, unde ducimus dignissimos nihil placeat at aperiam eaque pariatur sed excepturi eum a nam voluptate inventore rem, ipsum quam qui cumque doloremque illum impedit! Minima velit tenetur culpa ratione? Consectetur.</p>
+                            <a href="#" class="btn btn-light rounded-0">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 pt-2">
+                    <div class="card">
+                        <img src="/src/images/cast/paul.png" alt=""></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Paul Dano</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam, unde ducimus dignissimos nihil placeat at aperiam eaque pariatur sed excepturi eum a nam voluptate inventore rem, ipsum quam qui cumque doloremque illum impedit! Minima velit tenetur culpa ratione? Consectetur.</p>
+                            <a href="#" class="btn btn-light rounded-0">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 pt-2">
+                    <div class="card">
+                        <img src="/src/images/cast/farrel.png" alt=""></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Colin Farrel</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam, unde ducimus dignissimos nihil placeat at aperiam eaque pariatur sed excepturi eum a nam voluptate inventore rem, ipsum quam qui cumque doloremque illum impedit! Minima velit tenetur culpa ratione? Consectetur.</p>
+                            <a href="#" class="btn btn-light rounded-0">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="d-flex justify-content-center pt-5">
+                    <a href="#" class="btn btn-lg btn-dark rounded-0">Veja mais</a>
+                </span>
+            </div>
+        </div>
+    </section>
+        
+    <footer id="footer" class="container-fluid text-white text-center p-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="social mx-auto p-2">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-facebook ps-1"></i></a>
+                    <a href=""><i class="bi bi-youtube ps-1"></i></a>
+                </div>
+                <p class="m-0">
+                    &copy; 2023 The Batman. Todos os direitos reservados. 
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="/src/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/src/js/main.js"></script>
     
 </body>
 </html>
